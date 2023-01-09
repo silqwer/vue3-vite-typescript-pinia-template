@@ -33,7 +33,7 @@
 
 # ⚙️ 설치
 
-## 1️⃣ Dependencies 서치
+### 1️⃣ Dependencies 서치
 
 **NPM**
 
@@ -47,7 +47,7 @@ npm install
 yarn install
 ```
 
-## 2️⃣ 실행
+### 2️⃣ 실행
 
 **NPM**
 
@@ -61,7 +61,7 @@ npm run dev
 yarn dev
 ```
 
-## 3️⃣ 빌드
+### 3️⃣ 빌드
 
 **NPM**
 
@@ -75,7 +75,7 @@ npm run build
 yarn build
 ```
 
-## 4️⃣ Lint
+### 4️⃣ Lint
 
 **NPM**
 
@@ -89,16 +89,32 @@ npm run lint
 yarn lint
 ```
 
-## 5️⃣ Stylelint
+### 5️⃣ Stylelint
 
 **NPM**
 
 ```
-npm run stylelint
+npm run lint:style
 ```
 
 **YARN**
 
 ```
-yarn stylelint
+yarn lint:style
+```
+
+### 6️⃣ Jest
+
+**NPM**
+
+```
+npm run test:unit
+npm run test:unit-with-coverage
+```
+
+**YARN**
+
+```
+yarn test:unit
+yarn test:unit-with-coverage
 ```
